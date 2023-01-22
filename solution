@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+def solution(number):
+    if number>0:
+        jami=[]
+        for n in range(number):
+            if n%3==0:
+                jami.append(n)
+            elif n%5==0:
+                jami.append(n)
+        print(sum(jami))
+    else:
+        print (0)
+solution(int(input("Enter Number > ")))
+    
+https://www.codewars.com/kata/514b92a657cdc65150000006/train/python
